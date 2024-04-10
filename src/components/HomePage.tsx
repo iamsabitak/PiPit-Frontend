@@ -3,7 +3,7 @@ import { Anchor, Box, Button, Flex, Image, Text } from "@mantine/core";
 
 // @ts-ignore
 import PipitNavLogo from "../components/assets/Group 2.svg";
-//@ts-expect-error
+// @ts-ignore
 import Desktop from "../components/assets/Desktop - 5.svg";
 // @ts-ignore
 import ArrowIcon from "../components/assets/Vector.svg";
