@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Flight Booking and Reservation System Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the homepage component for a flight booking and reservation system. The homepage provides an overview of the system's features and benefits, along with a call-to-action for requesting a demo.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Header section with navigation links and logo
+- Main content section showcasing the system's benefits
+- Call-to-action button for requesting a demo
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React.js
+- Mantine UI library
+- TypeScript
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To use this homepage component in your project, follow these steps:
+
+1. Clone the repository or create a new project based on it using [degit](https://github.com/Rich-Harris/degit):
+
+```bash
+npx degit your-template-repo-folder my-project
+cd my-project
+npm install
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
