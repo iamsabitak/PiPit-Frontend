@@ -20,20 +20,22 @@ interface DataItem {
 }
 
 const data: DataItem[] = [
-  { text: "Pipit Agent", imageSrc: Addsign },
-  { text: "Pipit B2C", imageSrc: Addsign },
-  { text: "Pipit Premium", imageSrc: Addsign },
+  { text: "Pipit Lite", imageSrc: Addsign },
+  { text: "Pipit Flights", imageSrc: Addsign },
 ];
 
 const listItems: string[] = [
-  "Centralized platform to manage contracts, commissions, and agent activity through a centralized platform",
-  "Comprehensive reporting and analytics tools tailored for wholesalers, and travel consolidators",
-  "Tailored for wholesalers, and travel consolidators",
+  "Domestic and International Flights",
+  "Manage organization, branches",
+  "Booking portal for branches",
+  "Onboard and Manage multiple agents",
+  "Booking portal for agents",
+  "Customizable B2C booking portal for your customers",
 ];
 
 function FeaturePresentation() {
   return (
-    <Box mt={200} style={{ font: "Proxima Nova" }} c={"#222A4E"}>
+    <Box mt={150} style={{ font: "Proxima Nova" }} c={"#222A4E"}>
       <Box
         style={{
           lineHeight: "48px",
@@ -68,26 +70,26 @@ function FeaturePresentation() {
           Delivering a hassle-free experience for both you and your customers.
         </Text>
       </Box>
-      <Flex justify={"center"} align={"center"} gap={30} mt={60}>
-        <Image src={Desktop} />
+      <Flex justify={"center"} align={"center"} gap={40} mt={60}>
+        <Image src={Desktop} h={350} mt={-50} />
         <Group
-          w={"570px"}
+          w={"550px"}
           h={"544px"}
           // style={{ border: "1px solid red" }}
           bg="#FFFFFF"
-          mt={30}
+          mt={-10}
         >
           <Group
-            h={"220px"}
+            h={"240px"}
             style={{
               boxShadow: "0px 8px 12px 0px rgba(22, 61, 62, 0.1)",
               borderRadius: "4px",
-              overflow: "hidden",
+              // overflow: "hidden",
             }}
           >
             <Title
               mt={-5}
-              ml={40}
+              ml={29}
               style={{
                 lineHeight: "38.4px",
                 letterSpacing: "1px",
@@ -96,7 +98,7 @@ function FeaturePresentation() {
               size={"32px"}
               c={"#222A4E"}
             >
-              Pipit B2B
+              Pipit Premium
             </Title>
             {/* <List
             ml={40}
@@ -120,7 +122,7 @@ function FeaturePresentation() {
               ml={40}
               mb={15}
               style={{
-                color: "#606882",
+                color: "#474E6C",
                 fontSize: "16px",
                 alignItems: "center",
               }}
@@ -132,7 +134,7 @@ function FeaturePresentation() {
               ))}
             </List>
           </Group>
-          <Box style={{ font: "Proxima Nova" }} c={"#222A4E"}>
+          <Box style={{ font: "Proxima Nova" }} c={"#222A4E"} mt={-50}>
             {/* <Flex
             justify={"space-between"}
             align={"center"}
@@ -168,18 +170,18 @@ function FeaturePresentation() {
                   boxShadow: "0px 8px 12px 0px rgba(22, 61, 62, 0.1)",
                   borderRadius: "4px",
                 }}
-                w={"570px"}
+                w={"550px"}
                 h={"96px"}
               >
                 <Title
                   fw={700}
                   size={"28px"}
                   style={{ lineHeight: "34.1px" }}
-                  ml={42}
+                  ml={29}
                 >
                   {item.text}
                 </Title>{" "}
-                <Image src={item.imageSrc} />{" "}
+                <Image src={item.imageSrc} mr={20} />{" "}
               </Flex>
             ))}
           </Box>
