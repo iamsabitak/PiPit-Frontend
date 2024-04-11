@@ -8,6 +8,10 @@ import Desktop from "../components/assets/Desktop - 6.svg";
 // @ts-ignore
 import ArrowIcon from "../components/assets/Vector.svg";
 import FeatureSection from "./FeatureSection";
+import FeaturePresentation from "./FeaturePresentation";
+import PipitBenefitsTable from "./PipitBenefitsTable";
+import Banners from "./Banners";
+import Contact from "./Contact";
 
 function HomePage() {
   return (
@@ -131,6 +135,10 @@ function HomePage() {
         </Box>
       </Box>
       <FeatureSection />
+      <FeaturePresentation />
+      <PipitBenefitsTable />
+      <Banners />
+      <Contact />
     </>
   );
 }

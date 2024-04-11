@@ -41,7 +41,7 @@ function Contact() {
           >
             Contact us
           </Title>
-          <Box mt={20} w={"218px"}>
+          <Box mt={20}>
             <Flex gap={"17px"}>
               <Image src={MessageIcon} />
               <Text

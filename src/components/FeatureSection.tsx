@@ -15,10 +15,6 @@ import BackgroundImage5 from "./assets/background (4).svg";
 // @ts-ignore
 import BackgroundImage6 from "./assets/background (5).svg";
 
-import FeaturePresentation from "./FeaturePresentation";
-import PipitBenefitsTable from "./PipitBenefitsTable";
-import Banners from "./Banners";
-
 type BackgroundImage =
   | typeof BackgroundImage1
   | typeof BackgroundImage2
@@ -78,9 +74,6 @@ function FeatureSection() {
           </Card>
         ))}
       </Flex>
-      <FeaturePresentation />
-      <PipitBenefitsTable />
-      <Banners />
     </Box>
   );
 }

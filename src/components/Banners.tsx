@@ -9,7 +9,6 @@ import Banner2 from "./assets/image 16.svg";
 import Banner3 from "./assets/image 17.svg";
 //@ts-ignore
 import Banner4 from "./assets/image 18.svg";
-import Contact from "./Contact";
 
 function Banners() {
   return (
@@ -34,7 +33,6 @@ function Banners() {
           <Image src={Banner4} />
         </Flex>
       </Box>
-      <Contact />
     </>
   );
 }
