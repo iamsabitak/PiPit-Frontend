@@ -37,7 +37,7 @@ const backgroundImages: {
 
 function PipitBenefitsTable() {
   return (
-    <Box bg="#CCF0F133" mt={130} w={"1,440px"} h={"710px"}>
+    <Box bg="#CCF0F133" mt={130} w={"1,440px"} h={"690px"}>
       <Box
         style={{
           lineHeight: "48px",
