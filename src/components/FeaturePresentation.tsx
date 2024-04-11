@@ -1,5 +1,14 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { Box, Flex, Group, Image, List, ListItem, Text, Title } from "@mantine/core";
+import {
+  Box,
+  Flex,
+  Group,
+  Image,
+  List,
+  ListItem,
+  Text,
+  Title,
+} from "@mantine/core";
 // @ts-ignore
 import Desktop from "../components/assets/Desktop - 17.svg";
 // @ts-ignore
