@@ -146,9 +146,9 @@ function FeatureSection() {
             h={"544px"}
             // style={{ border: "1px solid red" }}
             bg="#FFFFFF"
+            mt={30}
           >
             <Group
-              // mt={-140}
               h={"220px"}
               style={{
                 boxShadow: "0px 8px 12px 0px rgba(22, 61, 62, 0.1)",
