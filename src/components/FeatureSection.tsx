@@ -17,6 +17,7 @@ import BackgroundImage6 from "./assets/background (5).svg";
 
 import FeaturePresentation from "./FeaturePresentation";
 import PipitBenefitsTable from "./PipitBenefitsTable";
+import Banners from "./Banners";
 
 type BackgroundImage =
   | typeof BackgroundImage1
@@ -79,6 +80,7 @@ function FeatureSection() {
       </Flex>
       <FeaturePresentation />
       <PipitBenefitsTable />
+      <Banners />
     </Box>
   );
 }
