@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Box, Text, Flex, Image, Card, Title } from "@mantine/core";
-
 // @ts-ignore
 import BackgroundImage1 from "./assets/Background (1) 2.svg";
 // @ts-ignore
@@ -37,7 +36,7 @@ const backgroundImages: {
 
 function PipitBenefitsTable() {
   return (
-    <Box bg="#CCF0F133" mt={130} w={"1,440px"} h={"690px"}>
+    <Box bg="#CCF0F133" mt={90} w={"1,440px"} h={"690px"}>
       <Box
         style={{
           lineHeight: "48px",

@@ -35,7 +35,7 @@ const listItems: string[] = [
 
 function FeaturePresentation() {
   return (
-    <Box mt={150} style={{ font: "Proxima Nova" }} c={"#222A4E"}>
+    <Box mt={70} style={{ font: "Proxima Nova" }} c={"#222A4E"}>
       <Box
         style={{
           lineHeight: "48px",

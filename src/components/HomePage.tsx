@@ -87,7 +87,8 @@ function HomePage() {
                   font: "Proxima Nova",
                 }}
               >
-                Build Or Redefine Your Flight Booking And Reservation System
+                Build and Upgrade Your Flight Reservation With Pipit Booking
+                Engine
               </Text>
               <Text
                 mt={20}
@@ -106,7 +107,7 @@ function HomePage() {
                 customers.
               </Text>
               <Button
-                mt={30}
+                mt={31}
                 ml={32}
                 w={"194px"}
                 h={"64px"}

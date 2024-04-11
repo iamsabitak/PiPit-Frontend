@@ -83,7 +83,7 @@ function Contact() {
         }}
         mt={40}
       >
-        Pipet ©2024. All Rights Reserved.
+        Pipit ©2024. All Rights Reserved.
       </Title>
     </Box>
   );

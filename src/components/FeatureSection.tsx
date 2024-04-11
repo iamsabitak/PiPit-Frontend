@@ -44,18 +44,19 @@ function FeatureSection() {
       <Flex justify={"center"} align={"center"} wrap="wrap">
         {backgroundImages.map(({ image, text }, index) => (
           <Card
-            // pb={30}
             key={index}
-            // w={"360px"}
-            // h={"266px"}
             w={{ _: "100%", sm: "calc(80% / 3)" }}
             style={{
-              //   border: "1px solid red",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <Image src={image} w={350} mt={-60} />
+            <Image
+              src={image}
+              w={350}
+              mt={-60}
+              // style={{ boxShadow: "#CCF0F1" }}
+            />
             <Text
               mt={-70}
               w={"272px"}
