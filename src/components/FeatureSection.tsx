@@ -45,6 +45,7 @@ function FeatureSection() {
         {backgroundImages.map(({ image, text }, index) => (
           <Card
             key={index}
+            h={"350px"}
             w={{ _: "100%", sm: "calc(80% / 3)" }}
             style={{
               justifyContent: "center",

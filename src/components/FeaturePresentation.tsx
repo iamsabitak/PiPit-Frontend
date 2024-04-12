@@ -100,24 +100,6 @@ function FeaturePresentation() {
             >
               Pipit Premium
             </Title>
-            {/* <List
-            ml={40}
-            mb={15}
-            // mt={5}
-            style={{ color: "#606882", fontSize: "16px" }}
-          >
-            <ListItem fw={400}>
-              Centralized platform to manage contracts, commissions, and
-              agent activity through a centralized platform
-            </ListItem>
-            <ListItem mt={10} fw={400}>
-              Comprehensive reporting and analytics tools Tailored for
-              wholesalers, and travel consolidators
-            </ListItem>
-            <ListItem mt={10} fw={400}>
-              Tailored for wholesalers, and travel consolidators
-            </ListItem>
-          </List> */}
             <List
               ml={40}
               mb={15}
@@ -135,30 +117,6 @@ function FeaturePresentation() {
             </List>
           </Group>
           <Box style={{ font: "Proxima Nova" }} c={"#222A4E"} mt={-50}>
-            {/* <Flex
-            justify={"space-between"}
-            align={"center"}
-            p={10}
-            mt={50}
-            // mt={index === 0 ? 50 : 0}
-            style={{
-              // boxShadow: "0px 8px 12px 0px rgba(0, 0, 0, 0.1)",
-              boxShadow: "0 8px 12px 0 rgba(0, 0, 0, 0.15)",
-              borderRadius: "4px",
-            }}
-            w={"570px"}
-            h={"96px"}
-          >
-            <Title
-              fw={700}
-              size={"28px"}
-              style={{ lineHeight: "34.1px" }}
-              ml={42}
-            >
-              PiPit Agent
-            </Title>{" "}
-            <Image src={Addsign} />{" "}
-          </Flex> */}
             {data.map((item, index) => (
               <Flex
                 key={index}

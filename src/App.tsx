@@ -1,11 +1,11 @@
 import React from "react";
-
 import HomePage from "./components/HomePage";
 import Banners from "./components/Banners";
 import Contact from "./components/Contact";
 import PipitBenefitsTable from "./components/PipitBenefitsTable";
 import FeaturePresentation from "./components/FeaturePresentation";
 import FeatureSection from "./components/FeatureSection";
+// import { Container } from "@mantine/core";
 
 const App: React.FC = () => {
   return (

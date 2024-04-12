@@ -2,7 +2,7 @@
 import { Anchor, Box, Button, Flex, Image, Text } from "@mantine/core";
 
 // @ts-ignore
-import PipitNavLogo from "../components/assets/Group 2.svg";
+import PipitNavLogo from "../components/assets/Frame 1.svg";
 // @ts-ignore
 import Desktop from "../components/assets/Desktop - 6.svg";
 // @ts-ignore
@@ -32,10 +32,10 @@ function HomePage() {
               boxShadow: "0 4px 14px 0 rgba(0, 0, 0, 0.15)",
               position: "sticky", // make the navbar sticky
               top: "0", // stick it to the top of the viewport
-              zIndex: "100", // ensure it's above other content
+              zIndex: "999", // ensure it's above other content
             }}
           >
-            <Image src={PipitNavLogo} w={"59.92px"} h={"38px"} />
+            <Image src={PipitNavLogo} w={"68px"} h={"38px"} />
             <Flex gap={"48px"}>
               <li style={{ textDecoration: "none", listStyleType: "none" }}>
                 <Anchor href="#" style={{ textDecoration: "none" }}>
@@ -115,10 +115,16 @@ function HomePage() {
                 size="16px"
                 style={{ boxShadow: "0 4px 14px 0 rgba(0, 0, 0, 0.15)" }}
               >
-                <Text fw={700} style={{ lineHeight: "22.4px" }}>
-                  {" "}
-                  Request a demo{" "}
-                </Text>
+                <Anchor
+                  href="https://calendly.com/d/ckfg-58x-59t/pipit-demo"
+                  style={{ textDecoration: "none" }}
+                  c={"#FFFFFF"}
+                >
+                  <Text fw={700} style={{ lineHeight: "22.4px" }}>
+                    {" "}
+                    Request a demo
+                  </Text>
+                </Anchor>
                 <Image
                   src={ArrowIcon}
                   ml={11}

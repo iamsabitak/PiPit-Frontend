@@ -80,7 +80,8 @@ function PipitBenefitsTable() {
               h={"350px"}
               pb={30}
               key={index}
-              w={{ _: "100%", sm: "calc(80% / 3)" }}
+              //   w={{ _: "100%", sm: "calc(100% / 3)" }}
+              //   w={"360px"}
               style={{
                 justifyContent: "center",
                 alignItems: "center",
