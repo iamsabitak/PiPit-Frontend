@@ -53,7 +53,7 @@ function Contact() {
                   font: "Proxima Nova",
                 }}
               >
-                sales@mypipet.com
+                sales@mypipit.com
               </Text>
             </Flex>
             <Flex gap={"17px"} mt={15}>
