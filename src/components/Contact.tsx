@@ -10,12 +10,12 @@ import ContactIcon from "./assets/Frame (1).svg";
 function Contact() {
   return (
     <Box bg={"#1C2341"} c="#FFFFFF" className="contact">
-      <Flex justify={"space-between"} pl={140}>
+      <Flex justify={"space-between"} pl={140} className="contactsection">
         <Box w={"354px"}>
           <Image
             src={PipitLogo}
             w={"126.15px"}
-            h={"80px"}
+            // h={"80px"}
             mt={60}
             // p={100}
           />
@@ -64,7 +64,6 @@ function Contact() {
                 style={{
                   textDecoration: "underline",
                   lineHeight: "28px",
-                  font: "Proxima Nova",
                 }}
               >
                 +977-9801190674
@@ -77,7 +76,6 @@ function Contact() {
         fw={400}
         size={"16px"}
         style={{
-          font: "Proxima Nova",
           display: "flex",
           justifyContent: "center",
         }}
