@@ -69,7 +69,7 @@ function HomePage() {
             </Flex>
           </Group>
         </Flex>
-        <Box className="content">
+        <Box className="content" pb={100}>
           <Flex
             className="flex"
             gap={"33px"}
