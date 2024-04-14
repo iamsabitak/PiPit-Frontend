@@ -9,7 +9,7 @@ import ContactIcon from "./assets/Frame (1).svg";
 
 function Contact() {
   return (
-    <Box h={"330px"} bg={"#1C2341"} c="#FFFFFF">
+    <Box bg={"#1C2341"} c="#FFFFFF" className="contact">
       <Flex justify={"space-between"} pl={140}>
         <Box w={"354px"}>
           <Image
@@ -82,6 +82,7 @@ function Contact() {
           justifyContent: "center",
         }}
         mt={40}
+        pb={40}
       >
         Pipit ©2024. All Rights Reserved.
       </Title>

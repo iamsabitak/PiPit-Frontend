@@ -36,7 +36,7 @@ function Banners() {
 
   return (
     <Container>
-      <Box mt={100} h={"328px"}>
+      <Box mt={100} h={"328px"} className="banners">
         <Title
           fw={700}
           size={"40px"}

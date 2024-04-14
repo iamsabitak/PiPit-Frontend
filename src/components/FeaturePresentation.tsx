@@ -61,6 +61,7 @@ function FeaturePresentation() {
           What Can You Get?
         </Text>
         <Text
+          className="FeaturePresentation-text"
           mt={20}
           fw={400}
           size="20px"

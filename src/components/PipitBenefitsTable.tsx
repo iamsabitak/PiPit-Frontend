@@ -50,6 +50,7 @@ function PipitBenefitsTable() {
           font: "Proxima Nova",
           justifyContent: "center",
         }}
+        className="PipitBenefitsTable-text"
       >
         <Text
           mt={115}
@@ -83,6 +84,7 @@ function PipitBenefitsTable() {
         <Flex justify={"center"} align={"center"} wrap="wrap" gap={"24px"}>
           {backgroundImages.map(({ image, text, title }, index) => (
             <Card
+            className="pipitebenefitcards"
               h={"350px"}
               pb={30}
               key={index}
