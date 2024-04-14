@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { Anchor, Box, Button, Flex, Image, Text } from "@mantine/core";
-
+import { Anchor, Box, Button, Flex, Group, Image, Text } from "@mantine/core";
 // @ts-ignore
 import PipitNavLogo from "../components/assets/Frame 1.svg";
 // @ts-ignore
@@ -12,15 +11,16 @@ function HomePage() {
   return (
     <>
       <Box
+        className="container"
         w={"1,440px"}
-        h={"750px"}
-        style={{ font: "Proxima Nova" }}
+        // h={"750px"}
         bg={
           "linear-gradient(90deg, rgba(219,249,255,1) 0%, rgba(181,242,255,1) 55%, rgba(155,175,242,1) 140%)"
         }
       >
-        <Flex justify={"center"} p={30}>
-          <Flex
+        <Flex justify={"center"} p={30} className="flex-container">
+          <Group
+            className="navbar"
             w={"1121px"}
             h={"78px"}
             bg={"#FFFFFF"}
@@ -30,13 +30,18 @@ function HomePage() {
             style={{
               borderRadius: "4px",
               boxShadow: "0 4px 14px 0 rgba(0, 0, 0, 0.15)",
-              position: "sticky", // make the navbar sticky
-              top: "0", // stick it to the top of the viewport
-              zIndex: "999", // ensure it's above other content
+              // position: "sticky", // make the navbar sticky
+              // top: "0", // stick it to the top of the viewport
+              // zIndex: "999", // ensure it's above other content
             }}
           >
-            <Image src={PipitNavLogo} w={"68px"} h={"38px"} />
-            <Flex gap={"48px"}>
+            <Image
+              src={PipitNavLogo}
+              w={"68px"}
+              h={"38px"}
+              className="navbar-img"
+            />
+            <Flex gap={"48px"} className="navbar-link">
               <li style={{ textDecoration: "none", listStyleType: "none" }}>
                 <Anchor href="#" style={{ textDecoration: "none" }}>
                   <Text
@@ -62,10 +67,11 @@ function HomePage() {
                 </Anchor>
               </li>
             </Flex>
-          </Flex>
+          </Group>
         </Flex>
-        <Box>
+        <Box className="content">
           <Flex
+            className="flex"
             gap={"33px"}
             justify={"center"}
             align={"center"}
@@ -73,8 +79,9 @@ function HomePage() {
             //   w={"1,121px"}
             p={3}
           >
-            <Box w={"589px"} h={"351px"}>
+            <Box w={"589px"} h={"351px"} className="flexbox">
               <Text
+                className="text"
                 mt={4}
                 h={"174px"}
                 fw={700}
@@ -126,13 +133,14 @@ function HomePage() {
                   </Text>
                 </Anchor>
                 <Image
+                  className="dashboard-img"
                   src={ArrowIcon}
                   ml={11}
                   style={{ boxShadow: "0 4px 38px 0 rgba(0, 0, 0, 0.25)" }}
                 />
               </Button>
             </Box>
-            <Image src={Desktop} />
+            <Image src={Desktop} className="dashboardImg" />
           </Flex>
         </Box>
       </Box>
