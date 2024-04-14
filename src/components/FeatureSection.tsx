@@ -40,8 +40,14 @@ const backgroundImages: { image: BackgroundImage; text: string }[] = [
 
 function FeatureSection() {
   return (
-    <Box w={"1,440px"} h={"750px"} mt={30} bg={"#FFFFFF"}>
-      <Flex justify={"center"} align={"center"} wrap="wrap">
+    <Box
+      w={"1,440px"}
+      // h={"750px"}
+      mt={30}
+      bg={"#FFFFFF"}
+      className="FeatureSection"
+    >
+      <Flex justify={"center"} align={"center"} wrap="wrap" className="FeatureSection1">
         {backgroundImages.map(({ image, text }, index) => (
           <Card
             key={index}
