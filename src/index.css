@@ -42,7 +42,7 @@ html {
   .flex {
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     /* margin-left: 60px; */
   }
   .dashboardImg {
@@ -68,7 +68,28 @@ html {
     justify-content: center;
     margin-left: 150px;
   }
-  .FeatureSection1 {
-    /* height: 800px; */
+  .FeaturePresentation {
+    width: 547px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -30px;
+    align-items: center;
+  }
+  .featurepresentation1 {
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    width: 547px;
+    display: grid;
+    justify-content: center;
+    margin-left: 25px;
+    text-align: left;
+    /* border-radius: 40px; */
+  }
+  .featurepresentation2 {
+    display: grid;
+    justify-content: center;
+    width: 270px;
+    margin-left: 9rem;
   }
 }

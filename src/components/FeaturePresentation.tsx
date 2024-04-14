@@ -35,12 +35,16 @@ const listItems: string[] = [
 
 function FeaturePresentation() {
   return (
-    <Box mt={70} style={{ font: "Proxima Nova" }} c={"#222A4E"}>
+    <Box
+      mt={70}
+      style={{ font: "Proxima Nova" }}
+      c={"#222A4E"}
+      className="FeaturePresentation"
+    >
       <Box
         style={{
           lineHeight: "48px",
           display: "grid",
-          // alignItems: "center",
           justifyContent: "center",
         }}
       >
@@ -50,7 +54,6 @@ function FeaturePresentation() {
           style={{
             lineHeight: "48px",
             display: "flex",
-            // alignItems: "center",
             justifyContent: "center",
             letterSpacing: "1px",
           }}
@@ -64,28 +67,27 @@ function FeaturePresentation() {
           c={"#474E6C"}
           style={{
             lineHeight: "28px",
-            font: "Proxima Nova",
           }}
         >
           Delivering a hassle-free experience for both you and your customers.
         </Text>
       </Box>
-      <Flex justify={"center"} align={"center"} gap={40} mt={60}>
+      <Flex
+        justify={"center"}
+        align={"center"}
+        gap={40}
+        mt={60}
+        className="FeaturePresentation"
+      >
         <Image src={Desktop} h={350} mt={-50} />
-        <Group
-          w={"550px"}
-          h={"544px"}
-          // style={{ border: "1px solid red" }}
-          bg="#FFFFFF"
-          mt={-10}
-        >
+        <Group w={"530px"} h={"544px"} bg="#FFFFFF" mt={-10}>
           <Group
             h={"240px"}
             style={{
               boxShadow: "0px 8px 12px 0px rgba(22, 61, 62, 0.1)",
               borderRadius: "4px",
-              // overflow: "hidden",
             }}
+            className="featurepresentation1"
           >
             <Title
               mt={-5}
@@ -116,7 +118,7 @@ function FeaturePresentation() {
               ))}
             </List>
           </Group>
-          <Box style={{ font: "Proxima Nova" }} c={"#222A4E"} mt={-50}>
+          <Box c={"#222A4E"} mt={-50} className="featurepresentation2">
             {data.map((item, index) => (
               <Flex
                 key={index}
@@ -128,7 +130,7 @@ function FeaturePresentation() {
                   boxShadow: "0px 8px 12px 0px rgba(22, 61, 62, 0.1)",
                   borderRadius: "4px",
                 }}
-                w={"550px"}
+                w={"530px"}
                 h={"96px"}
               >
                 <Title
