@@ -70,6 +70,7 @@ html {
   }
   .FeaturePresentation {
     width: 547px;
+    height: 882.21px;
     display: grid;
     align-items: center;
     text-align: center;
@@ -91,5 +92,15 @@ html {
     justify-content: center;
     width: 270px;
     margin-left: 9rem;
+  }
+  .PipitBenefitsTable {
+    padding-top: -10rem;
+    width: 547px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -30px;
+    align-items: center;
   }
 }

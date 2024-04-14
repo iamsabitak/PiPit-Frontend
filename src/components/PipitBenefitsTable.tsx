@@ -36,7 +36,13 @@ const backgroundImages: {
 
 function PipitBenefitsTable() {
   return (
-    <Box bg="#CCF0F133" mt={90} w={"1,440px"} h={"690px"}>
+    <Box
+      bg="#CCF0F133"
+      mt={90}
+      w={"1,440px"}
+      // h={"690px"}
+      className="PipitBenefitsTable"
+    >
       <Box
         style={{
           lineHeight: "48px",
