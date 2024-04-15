@@ -152,4 +152,7 @@ html {
   .copyright {
     margin-left: -60px;
   }
+  .menuicon {
+    margin-left: -4px;
+  }
 }
