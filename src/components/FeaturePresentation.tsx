@@ -76,7 +76,7 @@ function FeaturePresentation() {
       <Flex
         justify={"center"}
         align={"center"}
-        gap={40}
+        gap={60}
         mt={60}
         className="FeaturePresentation"
       >
