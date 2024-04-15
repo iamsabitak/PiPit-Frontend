@@ -128,6 +128,17 @@ html {
   .contactsection {
     display: grid;
     justify-content: center;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+  }
+  .contact-text {
+    /* width: 504px;
+    font-size: 27px; */
+    margin-bottom: -60px;
+  }
+  /* .contactinformation {
+    padding-top: -7rem;
+  } */
+  .copyright {
+    margin-left: -60px;
   }
 }

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Box, Flex, Image, Text, Title } from "@mantine/core";
 // @ts-ignore
-import PipitLogo from "./assets/Group 2 2.svg";
+import PipitLogo from "./assets/Frame 1 (1).svg";
 // @ts-ignore
 import MessageIcon from "./assets/Frame.svg";
 // @ts-ignore
@@ -20,6 +20,7 @@ function Contact() {
             // p={100}
           />
           <Text
+            className="contact-text"
             mt={20}
             fw={"600"}
             size="20px"
@@ -33,7 +34,7 @@ function Contact() {
             travel business
           </Text>
         </Box>
-        <Box w={"288px"} mt={95} mr={200}>
+        <Box w={"288px"} mt={95} mr={200} className="contactinformation">
           <Title
             fw={700}
             size={"24px"}
@@ -81,6 +82,7 @@ function Contact() {
         }}
         mt={40}
         pb={40}
+        className="copyright"
       >
         Pipit ©2024. All Rights Reserved.
       </Title>
