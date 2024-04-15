@@ -47,7 +47,13 @@ function FeatureSection() {
       bg={"#FFFFFF"}
       className="FeatureSection"
     >
-      <Flex justify={"center"} align={"center"} wrap="wrap" className="FeatureSection1">
+      <Flex
+        justify={"center"}
+        align={"center"}
+        wrap="wrap"
+        className="FeatureSection1"
+        // gap={10}
+      >
         {backgroundImages.map(({ image, text }, index) => (
           <Card
             key={index}
@@ -56,6 +62,7 @@ function FeatureSection() {
             style={{
               justifyContent: "center",
               alignItems: "center",
+              // border: "1px solid red",
             }}
           >
             <Image

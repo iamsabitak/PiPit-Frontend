@@ -36,9 +36,9 @@ html {
   .navbar-link {
     display: none;
   }
-.navbar-img{
-  margin-left: -300px;
-}
+  .navbar-img {
+    margin-left: -300px;
+  }
   .flexbox {
     width: 400px;
   }
