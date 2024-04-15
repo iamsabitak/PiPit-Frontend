@@ -47,22 +47,24 @@ function HomePage() {
               // zIndex: "999", // ensure it's above other content
             }}
           >
-            {window.innerWidth <= 789 && (
-              <Group>
+            <Flex justify={"space-between"} gap={430} align={"center"}>
+              {window.innerWidth <= 789 && (
                 <Box
+                  ml={-180}
                   className={`toggle-btn ${isMenuOpen ? "active" : ""}`}
                   onClick={toggleMenu}
                 >
                   <Image src={MenuIcon} className="menuicon" />
                 </Box>
-              </Group>
-            )}
-            <Image
-              src={PipitNavLogo}
-              w={"68px"}
-              h={"38px"}
-              className="navbar-img"
-            />
+              )}
+              <Image
+                src={PipitNavLogo}
+                w={"68px"}
+                h={"38px"}
+                className="navbar-img"
+                style={{ justifyContent: "center" }}
+              />
+            </Flex>
             <Group gap={"48px"} className="navbar-link">
               <Anchor href="#" style={{ textDecoration: "none" }}>
                 <Text
@@ -85,20 +87,6 @@ function HomePage() {
                   Benefits
                 </Text>
               </Anchor>
-              <Anchor
-                href="#"
-                style={{ textDecoration: "none" }}
-                onClick={hideMenu}
-              >
-                <Text
-                  style={{ lineHeight: "22.4px" }}
-                  fw={600}
-                  size="16px"
-                  c={"#222A4E"}
-                >
-                  Contact
-                </Text>
-              </Anchor>
             </Group>
           </Group>
         </Flex>
@@ -113,7 +101,7 @@ function HomePage() {
             p={3}
           >
             <Box w={"589px"} h={"351px"} className="flexbox">
-              {/* <Box
+              <Box
                 mt={-40}
                 ml={40}
                 className={`dropdown-menu ${isMenuOpen ? "active" : ""}`}
@@ -161,7 +149,7 @@ function HomePage() {
                     Contact
                   </Text>
                 </Anchor>
-              </Box> */}
+              </Box>
               <Text
                 className="text"
                 mt={4}
