@@ -53,6 +53,7 @@ function Banners() {
           Integrations
         </Title>
         <ScrollArea
+        className="scrollarea"
           w={"1,120px"}
           h={120}
           styles={{
