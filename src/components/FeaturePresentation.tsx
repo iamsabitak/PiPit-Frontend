@@ -10,9 +10,9 @@ import {
   Title,
 } from "@mantine/core";
 // @ts-ignore
-import Desktop from "../components/assets/Desktop - 17.svg";
+import Desktop from "./assets/Desktop - 17.svg";
 // @ts-ignore
-import Addsign from "../components/assets/add-circle.svg";
+import Addsign from "./assets/add-circle.svg";
 
 interface DataItem {
   text: string;
