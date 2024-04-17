@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Anchor, Box, Button, Flex, Group, Image, Text } from "@mantine/core";
 // @ts-ignore
-import PipitNavLogo from "../components/assets/Frame 1.svg";
+import PipitNavLogo from "./assets/Frame 1.svg";
 // @ts-ignore
-import Desktop from "../components/assets/Desktop - 6 2.svg";
+import Desktop from "./assets/Desktop - 6 2.svg";
 // @ts-ignore
-import ArrowIcon from "../components/assets/Vector.svg";
+import ArrowIcon from "./assets/Vector.svg";
 // @ts-ignore
-import MenuIcon from "../components/assets/menu.svg";
+import MenuIcon from "./assets/menu.svg";
 import { useState } from "react";
 
 function HomePage() {
