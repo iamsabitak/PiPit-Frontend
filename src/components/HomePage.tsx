@@ -87,6 +87,20 @@ function HomePage() {
                   Benefits
                 </Text>
               </Anchor>
+              <Anchor
+                href="#"
+                style={{ textDecoration: "none" }}
+                onClick={hideMenu}
+              >
+                <Text
+                  style={{ lineHeight: "22.4px" }}
+                  fw={600}
+                  size="16px"
+                  c={"#222A4E"}
+                >
+                  Contact
+                </Text>
+              </Anchor>
             </Group>
           </Group>
         </Flex>
