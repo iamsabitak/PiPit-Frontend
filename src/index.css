@@ -4,7 +4,7 @@ html {
   color: #222a4e;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .container {
     width: 43.1rem;
     /* height: 42rem; */
@@ -150,6 +150,13 @@ html {
   .menuicon {
     display: block; /* Show the menu icon on mobile screens */
     /* margin-left: 20px; */
+    cursor: pointer;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
   }
 }
 
