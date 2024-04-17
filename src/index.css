@@ -4,9 +4,9 @@ html {
   color: #222a4e;
 }
 
-@media (min-width: 375px) and (max-width: 789px) {
+@media (min-width: 375px) and (max-width: 768px) {
   .container {
-    width: 42.1rem;
+    width: 43.1rem;
     /* height: 42rem; */
     padding: 60px;
     background-color: linear-gradient(
@@ -60,14 +60,14 @@ html {
     height: 49rem;
   }
   .FeatureSection {
-    width: 42.5rem;
+    width: 43.1rem;
     display: grid;
     align-items: center;
     justify-content: center;
     /* margin-left: -60px; */
   }
   .FeaturePresentation {
-    width: 42.1rem;
+    width: 43.1rem;
     height: 882.21px;
     display: grid;
     align-items: center;
@@ -75,7 +75,6 @@ html {
     justify-content: center;
     margin-top: -30px;
     align-items: center;
-    /* margin-left: -15px; */
   }
   .FeaturePresentation-text {
     width: 500px;
@@ -96,7 +95,7 @@ html {
     margin-left: 9rem;
   }
   .PipitBenefitsTable {
-    width: 42.1rem;
+    width: 43.1rem;
     display: grid;
     align-items: center;
     text-align: center;
@@ -115,7 +114,6 @@ html {
   .bannercontainer {
     margin-top: -7rem;
     padding-left: 300px;
-    
   }
   .banners {
     /* margin-left: 20px; */
@@ -130,7 +128,7 @@ html {
     /* margin-left: -9rem; */
   }
   .contact {
-    width: 42.1rem;
+    width: 43.1rem;
     background-color: #1c2341;
   }
   .contactsection {
