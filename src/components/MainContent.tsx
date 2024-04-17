@@ -19,55 +19,6 @@ function MainContent() {
         p={3}
       >
         <Box w={"589px"} h={"351px"} className="flexbox">
-          {/* <Box
-        mt={-40}
-        ml={40}
-        className={`dropdown-menu ${isMenuOpen ? "active" : ""}`}
-        style={{ display: isMenuOpen ? "grid" : "none" }}
-      >
-        <Anchor
-          href="#"
-          style={{ textDecoration: "none" }}
-          onClick={hideMenu}
-        >
-          <Text
-            style={{ lineHeight: "22.4px" }}
-            fw={600}
-            size="16px"
-            c={"#222A4E"}
-          >
-            What can you get?
-          </Text>
-        </Anchor>
-        <Anchor
-          href="#"
-          style={{ textDecoration: "none" }}
-          onClick={hideMenu}
-        >
-          <Text
-            style={{ lineHeight: "22.4px" }}
-            fw={600}
-            size="16px"
-            c={"#222A4E"}
-          >
-            Benefits
-          </Text>
-        </Anchor>
-        <Anchor
-          href="#"
-          style={{ textDecoration: "none" }}
-          onClick={hideMenu}
-        >
-          <Text
-            style={{ lineHeight: "22.4px" }}
-            fw={600}
-            size="16px"
-            c={"#222A4E"}
-          >
-            Contact
-          </Text>
-        </Anchor>
-      </Box> */}
           <Text
             className="text"
             mt={4}
