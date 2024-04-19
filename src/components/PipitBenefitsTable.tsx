@@ -41,6 +41,8 @@ function PipitBenefitsTable() {
       mt={90}
       w={"1,440px"}
       // h={"690px"}
+      pt={10}
+      pb={50}
       className="PipitBenefitsTable"
     >
       <Box

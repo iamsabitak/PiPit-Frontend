@@ -22,7 +22,6 @@ function MainContent() {
           <Text
             className="text"
             mt={4}
-            h={"174px"}
             fw={700}
             size="48px"
             c={"#222A4E"}
