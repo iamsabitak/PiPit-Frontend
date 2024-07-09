@@ -1,3 +1,5 @@
+'use client'
+
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Anchor, Box, Button, Flex, Group, Image, Text } from "@mantine/core";
 // @ts-ignore
