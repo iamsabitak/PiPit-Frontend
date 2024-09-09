@@ -24,7 +24,7 @@ function MainContent() {
             mt={4}
             fw={700}
             size="48px"
-            c={"#222A4E"}
+            c={"#222A4E"} 
             ml={34}
             style={{
               lineHeight: "57.6px",
@@ -32,7 +32,11 @@ function MainContent() {
               font: "Proxima Nova",
             }}
           >
-            Build and Upgrade Your Flight Reservation With Pipit Booking Engine
+            Elevate Your Travel Business with{" "}
+            Pipit Flight Booking System
+            {/* <Text fw={750} c="#00B4BA" span>
+              Pipit Flight Booking System
+            </Text> */}
           </Text>
           <Text
             mt={20}
@@ -47,7 +51,8 @@ function MainContent() {
               font: "Proxima Nova",
             }}
           >
-            Delivering a hassle-free experience for both you and your customers.
+            Pipit flight booking system is a centralized platform to manage b2b
+            and b2c booking needs.
           </Text>
           <Button
             mt={31}
@@ -83,3 +88,4 @@ function MainContent() {
 }
 
 export default MainContent;
+/* eslint-disable @typescript-eslint/ban-ts-comment */
